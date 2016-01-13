@@ -10,3 +10,7 @@ return this.name;
 
 var obj = new hey(); // hey prototype will become it's proto which is hey function and proto object
 
+hey.prototype.newValue = "DOE";
+
+console.log(obj.newValue); // DOE
+
